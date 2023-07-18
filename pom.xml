@@ -33,6 +33,17 @@
 	<!--end  consul配置-->
 	<dependencies>
 		<dependency>
+			<groupId>com.example.demo</groupId>
+			<artifactId>demo-service</artifactId>
+			<version>0.0.1</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.solr</groupId>
+					<artifactId>solr-solrj</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
