@@ -48,3 +48,4 @@ server:
     max-connections: 20000
     #最小工作空闲线程数，默认10, 适当增大一些，以便应对突然增长的访问量
     min-spare-threads: 100
+adminPath: /a
